@@ -8,8 +8,19 @@ const rakkas = Rakkas({
 
 const Navbar = () => {
   return (
-      <div className="logo bg-transparent flex items-center bg-black bg-opacity-50 h-screen text-white justify-center">
-        <h1 className={`${rakkas.className} font-semibold text-xl`}>Tastexxsee</h1>
+      <div className="logo  flex items-center bg-white h-16 text-black justify-between px-20">
+        <div className="icon">
+          <h1 className={`${rakkas.className} font-semibold text-xl text-black`}>Tastexxsee</h1>
+        </div>
+        <nav>
+          <ul className="flex justify-evenly w-96">
+            <li>about us</li>
+            <li>staff</li>
+            <li>dishes</li>
+            <li>contact us</li>
+          </ul>
+        </nav>
+        
       </div>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Lato } from 'next/font/google';
-import { constinental } from '@/data';
+
 
 const lato = Lato({
   subsets: ['latin'],
