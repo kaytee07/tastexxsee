@@ -36,8 +36,8 @@ useEffect(()=> {
 }, [])
 
   return (
-    <div className="max-sm:px-5 max-sm:py-3 px-16 py-10 flex gap-20">
-        <div className="headers max-sm:hidden  w-[50%] flex justify-end">
+    <div className="flex px-16 gap-16 py-10 max-sm:px-5 max-sm:py-3">
+        <div className="headers max-sm:hidden max-sm:px-5 max-sm:py-3 w-[50%] flex justify-end">
             <img src="/img/hero8.avif" className="w-full h-20rem[" alt="food" />
         </div>
         <div className="flex flex-col max-sm:w-[100%] w-[50%]">
