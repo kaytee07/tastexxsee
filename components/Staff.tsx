@@ -16,7 +16,7 @@ const latoBold = Lato({ weight: '400', subsets: ['latin'] });
 const Staff = () => {
   return (
    // 50% on small screens and 33% on larger screens.
-   <div className="max-sm:px-11 bg-[#000000] text-[#FFD700] max-sm:py-5 px-16 py-10">
+   <div className="max-sm:px-14 bg-[#000000] text-[#FFD700] max-sm:py-5 px-16 py-10">
     <div className={`headers py-5 ${libreBaskerville.className}`}>
             <h1 className="text-3xl font-bold">Staff</h1>
         </div>
