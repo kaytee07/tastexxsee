@@ -12,14 +12,14 @@ const Navbar = () => {
             </Link>
         </div>
         <nav 
-        className="flex justify-between h-[2rem] text-sm font-md md:w-[40rem] max-md:gap-5">
-            <ul className="flex justify-evenly w-96">
+        className="flex  justify-between h-[2rem] text-sm font-md md:w-[40rem] max-md:gap-5">
+            <ul className="flex max-sm:hidden justify-evenly w-96">
             <li>about us</li>
             <li>staff</li>
             <li>dishes</li>
             <li>contact us</li>
           </ul>
-            <div className=" flex items-center text-[#FFD700]">
+            <div className="md:hidden flex items-center text-[#FFD700]">
                 <SheetDemo/>
             </div>
         </nav>
