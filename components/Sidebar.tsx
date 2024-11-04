@@ -3,10 +3,8 @@ import {
   SheetContent,
   SheetDescription,
   SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
-import Image from "next/image"
 import Link from "next/link"
 
 
@@ -41,21 +39,19 @@ export function SheetDemo() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle>
-            <Link href="/">
-            <Image src="/logos/Logo.png" width={100} height={40} alt="logo"/>
+          
+            <Link className="w-5 font-bold text-[#FFD700]" href="/">
+                Tastexxsee
             </Link>
-            </SheetTitle>
           <SheetDescription>
             {/* Make changes to your profile here. Click save when you're done. */}
           </SheetDescription>
         </SheetHeader>
-        <div className="gap-4 py-4 flex h-[24rem]">
-         <ul className="flex flex-col justify-around">
-            <li>about us</li>
-            <li>staff</li>
-            <li>dishes</li>
-            <li>contact us</li>
+        <div className="gap-4 py-4 flex h-[10rem] w-full">
+         <ul className="flex flex-col justify-around w-full">
+            <li className="border-b-[#FFD700] border-b-2">about us</li>
+            <li className="border-b-[#FFD700] border-b-2">staff</li>
+            <li className="border-b-[#FFD700] border-b-2">contact us</li>
          </ul>
         </div>
       </SheetContent>

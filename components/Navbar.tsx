@@ -18,7 +18,7 @@ const Navbar = () => {
             <li>staff</li>
             <li>dishes</li>
             <li>contact us</li>
-          </ul>
+            </ul>
             <div className="md:hidden flex items-center text-[#FFD700]">
                 <SheetDemo/>
             </div>
