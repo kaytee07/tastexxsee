@@ -17,7 +17,10 @@ const config: Config = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		boxShadow: {
+        'gold': '0 4px 15px rgba(255, 215, 0, 0.5)', // Custom gold shadow
+      },
   	}
   },
   plugins: [require("tailwindcss-animate")],

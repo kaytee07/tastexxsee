@@ -1,28 +1,35 @@
 import React from 'react';
-import { Rakkas } from 'next/font/google';
+import Link from 'next/link';
+import { SheetDemo } from './Sidebar';
 
-const rakkas = Rakkas({
-  weight: '400', // You can choose different weights
-  subsets: ['latin'], // Add other subsets if needed
-});
 
 const Navbar = () => {
   return (
-      <div className="logo  flex items-center bg-white h-16 text-black justify-between px-20">
-        <div className="icon">
-          <h1 className={`${rakkas.className} font-semibold text-xl text-black`}>Tastexxsee</h1>
+    <header className='flex flex-row justify-between bg-[#000000] text-[#FFD700] items-center py-4 px-10'>
+        <div className="logo">
+            <Link href="/">
+                <h1 className={`font-semibold text-xl text-[#FFD700]`}>Tastexxsee</h1>
+            </Link>
         </div>
-        <nav>
-          <ul className="flex justify-evenly w-96">
+        <nav 
+        className="flex justify-between h-[2rem] text-sm font-md md:w-[40rem] max-md:gap-5">
+            <ul className="flex justify-evenly w-96">
             <li>about us</li>
             <li>staff</li>
             <li>dishes</li>
             <li>contact us</li>
           </ul>
+            <div className=" flex items-center text-[#FFD700]">
+                <SheetDemo/>
+            </div>
         </nav>
+      
         
-      </div>
+         
+    </header>
+
   )
 }
 
 export default Navbar
+

@@ -1,6 +1,8 @@
 "use client"
 import { menu } from '@/data'
 import React, { useEffect, useState } from 'react'
+import { Lato } from 'next/font/google';
+import { Libre_Baskerville } from 'next/font/google';
 
 type Dish = {
   name: string;
@@ -12,12 +14,18 @@ type MenuItem = {
   dishes: Dish[]
 }
 
+const latoBold = Lato({ weight: '400', subsets: ['latin'] });
+const libreBaskerville = Libre_Baskerville({ weight: '700', subsets: ['latin'] });
+
 
 
 const Dish = () => {
 const [currentMenu, setMenu] = useState< MenuItem[]>([]);
 const [menuTypes] = useState(Object.keys(menu));
 const [activeItem, setActiveItem] = useState('');
+
+
+
 
 const getMenu = (type: string) => {
   if (menu[type]) {
@@ -36,25 +44,26 @@ useEffect(()=> {
 }, [])
 
   return (
-    <div className="flex px-16 gap-16 py-10 max-sm:px-5 max-sm:py-3">
+    <div className="flex px-16 gap-16 bg-[#1f1f1f] text-[#FFD700] py-10 max-sm:px-5 max-sm:py-3">
         <div className="headers max-sm:hidden max-sm:px-5 max-sm:py-3 w-[50%] flex justify-end">
             <img src="/img/hero8.avif" className="w-full h-20rem[" alt="food" />
         </div>
-        <div className="flex flex-col max-sm:w-[100%] w-[50%]">
+        <div className={`flex flex-col max-sm:w-[100%] w-[50%] ${libreBaskerville.className}`}>
           <div className="sub-info flex justify-between px-5 pb-5">
-            <h1>Menu</h1>
-            <button>SEE ALL</button>
+            <h1 className='text-4xl'>Menu</h1>
+           
           </div>
-          <div className="menu-info">
+
+          <div className={`menu-info  ${latoBold.className}`}>
               <nav aria-label="breadcrumb"  className="w-full flex flex-wrap">
-                <ol  className="flex w-full flex-wrap items-center rounded-md bg-slate-50 px-4 py-2">
+                <ol  className="flex w-full flex-wrap items-center rounded-md bg-black px-4 py-2">
                   {
                     menuTypes.map((items, index) => (
                       <li key={index} onClick={() => getMenu(items)} className={`flex cursor-pointer items-center text-sm transition-colors duration-300 ${
-              activeItem === items ? 'text-red-500' : 'text-slate-500 hover:text-slate-800'
+              activeItem === items ? 'text-red-500' : 'text-[#FFD700] hover:text-[#f0efee]'
             }`}>
                         <p className="text-lg">{items.toUpperCase()}</p>
-                        <span  className="pointer-events-none mx-2 text-slate-800">
+                        <span  className="pointer-events-none mx-2 text-[#FFD700]">
                           /
                         </span>
                       </li>
@@ -65,17 +74,17 @@ useEffect(()=> {
                 </ol>
               </nav>
           </div>
-          <div className="list py-5 px-5 overflow-y-scroll h-96 mt-5 w-full">
+          <div className={`list py-5 px-5 overflow-y-scroll h-96 mt-5 w-full  ${latoBold.className}`}>
             {
               currentMenu.map((item, index) => (
                 <div key={index}>
                   <h1 className="text-2xl">{item.name}</h1>
                   <ul>
                     {item.dishes.map((menu, index) => (
-                    <li key={index} className="flex justify-between border-b-2 pt-2">
+                    <li key={index} className="flex justify-between border-b-[#FFD700] border-b-2 pt-2">
                       <h3 className="text-lg">{menu.name}</h3>
                       <ul className="flex gap-3">
-                        <li>{menu.prices.join(', ₵')}</li>
+                        <li>{menu.prices.map(price => `₵${price} `).join(', ')}</li>
                       </ul>
                     </li>
                     ))}

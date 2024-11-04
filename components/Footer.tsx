@@ -1,11 +1,14 @@
 import React from 'react';
+import { Lato } from 'next/font/google';
+
+const latoBold = Lato({ weight: '400', subsets: ['latin'] });
 
 const Footer = () => {
   return (
     <div>
       {/* Footer container */}
-      <footer className="bg-zinc-50 text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left ax-sm:px-5 max-sm:py-3 px-16 pt-10">
-        <div className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-white/10 lg:justify-between">
+      <footer className={`${latoBold.className} bg-[#000000] text-[#FFD700] text-center text-xl text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left ax-sm:px-5 max-sm:py-3 px-16 pt-10`}>
+        <div className="flex items-center justify-center border-b-2 border-[#FFD700] p-6 dark:border-white/10 lg:justify-between">
           <div className="me-12 hidden lg:block">
             <span>Get connected with us on social networks:</span>
           </div>

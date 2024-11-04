@@ -1,19 +1,24 @@
 
 "use client"
-import { Meow_Script } from 'next/font/google';
-
 
 import React from 'react';
+import { Libre_Baskerville } from 'next/font/google';
+import { Lato } from 'next/font/google';
 
-const meowScript = Meow_Script({
-  subsets: ['latin'],
-  weight: '400', // specify the weight here
-})
+
+const libreBaskerville = Libre_Baskerville({ weight: '700', subsets: ['latin'] });
+const latoBold = Lato({ weight: '400', subsets: ['latin'] });
+
 
 const Hero = () => {
   // const [ menu, setMenu ] = useState({});
   return (
-<div className="flex h-[80vh] bg-[#ab3434] max-sm:px-10 max-sm:py-10 md:px-16 md:py-10 relative text-white">
+<div className="flex h-[80vh] max-sm:bg-[url('/img/herosm.avif')] bg-[url('/img/realhero.avif')] bg-cover max-sm:px-10 max-sm:py-10 md:px-16 md:py-10 relative text-white">
+<div className={`catch absolute w-[38rem] max-sm:top-40 max-sm:left-10 top-52 max-sm:w-auto`}>
+  <h1 className={`text-5xl max-sm:text-5xl font-bold ${libreBaskerville.className} `}>Savor the Flavor, Celebrate Every Bite!</h1>
+  <p className={`text-lg mt-4 max-sm:text-xl ${latoBold.className}`}>Join us for a delightful dining experience where each dish is crafted with passion and the finest ingredients, inviting you to explore a world of taste in every bite.</p>
+</div>
+    {/* <div className="h-full w-full bg-black bg-opacity-50"></div> */}
   {/* Text section (uncomment if needed)
   <div className="home-text h-[26rem] flex flex-col px-16 justify-center">
     <h1 className="text-6xl">Where Every Meal Is a Feast!</h1>
@@ -21,7 +26,7 @@ const Hero = () => {
   </div>
   */}
 
-  <div className="flex justify-between absolute w-[90%]">
+  {/* <div className="flex justify-between absolute w-[90%]">
     <div className="name">
       <h3>CHEF</h3>
       <p className={`${meowScript.className} text-lg`}>Richard Ofori</p>
@@ -54,7 +59,7 @@ const Hero = () => {
       <h3>2024 /</h3>
       <p>TASTEXXSEE</p>
     </div>
-  </div>
+  </div> */}
 </div>
 
   )
