@@ -5,15 +5,15 @@ import { SheetDemo } from './Sidebar';
 
 const Navbar = () => {
   return (
-    <header className='flex flex-row justify-between bg-[#000000] text-[#FFD700] items-center py-4 px-10'>
+    <header className='flex flex-row justify-between bg-white text-[#FFD700] items-center py-4 px-10'>
         <div className="logo">
             <Link href="/">
                 <h1 className={`font-semibold text-xl text-[#FFD700]`}>Tastexxsee</h1>
             </Link>
         </div>
         <nav 
-        className="flex  justify-between h-[2rem] text-sm font-md md:w-[40rem] max-md:gap-5">
-            <ul className="flex max-sm:hidden justify-evenly w-96">
+        className="flex  justify-between h-[2rem] text-sm font-md  max-md:gap-5">
+            <ul className="flex max-sm:hidden text-lg justify-evenly items-center w-96">
             <li>about us</li>
             <li>staff</li>
             <li>dishes</li>

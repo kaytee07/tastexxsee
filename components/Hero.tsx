@@ -13,10 +13,14 @@ const latoBold = Lato({ weight: '400', subsets: ['latin'] });
 const Hero = () => {
   // const [ menu, setMenu ] = useState({});
   return (
-<div className="flex h-[80vh] max-sm:bg-[url('/img/herosm.avif')] bg-[url('/img/realhero.avif')] bg-cover max-sm:px-10 max-sm:py-10 md:px-16 md:py-10 relative text-white">
-<div className={`catch absolute w-[38rem] max-sm:top-40 max-sm:left-10 top-52 max-sm:w-auto`}>
-  <h1 className={`text-5xl max-sm:text-5xl font-bold ${libreBaskerville.className} `}>Savor the Flavor, Celebrate Every Bite!</h1>
-  <p className={`text-lg mt-4 max-sm:text-xl ${latoBold.className}`}>Join us for a delightful dining experience where each dish is crafted with passion and the finest ingredients, inviting you to explore a world of taste in every bite.</p>
+<div className="flex h-[90vh] max-sm:bg-[url('/img/rest1.avif')] bg-[url('/img/rest3.jpeg')] bg-cover   relative text-white">
+<div className="absolute bg-black bg-opacity-40 w-full h-full"></div>
+<div className={`catch absolute flex text-[#ffd900e1] max-sm:px-10 flex-col items-center w-full max-sm:top-40 max-sm:items-start top-52 max-sm:w-auto`}>
+  <h1 className={`text-8xl max-sm:text-5xl font-bold ${libreBaskerville.className} `}>Savor the Flavor, <br/></h1>
+  <h1 className={`text-8xl max-sm:text-5xl font-bold ${libreBaskerville.className} `}> Celebrate Every Bite!</h1>
+  <p className={`text-xl mt-4 max-sm:text-xl ${latoBold.className}`}>Join us for a delightful dining experience where each dish is crafted with passion and the finest ingredients,</p>
+  <p className={`text-xl mt-2 max-sm:text-xl ${latoBold.className}`}>inviting you to explore a world of taste in every bite.</p>
+  <button className="mt-8 w-36 h-11 rounded-md text-black bg-[#ffd900e1] text-xl">Contact Us</button>
 </div>
     {/* <div className="h-full w-full bg-black bg-opacity-50"></div> */}
   {/* Text section (uncomment if needed)

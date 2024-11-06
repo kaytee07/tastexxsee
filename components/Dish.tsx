@@ -44,13 +44,13 @@ useEffect(()=> {
 }, [])
 
   return (
-    <div className="flex px-16 gap-16 bg-[#1f1f1f] text-[#FFD700] py-10 max-sm:px-5 max-sm:py-3">
-        <div className="headers max-sm:hidden max-sm:px-5 max-sm:py-3 w-[50%] flex justify-end">
+    <div className="flex px-16 gap-16 h-[46rem] py-20 bg-black text-[#ffd900e1] max-sm:px-5 max-sm:py-3">
+        <div className="headers max-sm:hidden max-sm:px-5 max-sm:py-3  w-[50%] flex justify-end">
             <img src="/img/hero8.avif" className="w-full h-20rem[" alt="food" />
         </div>
         <div className={`flex flex-col max-sm:w-[100%] w-[50%] ${libreBaskerville.className}`}>
           <div className="sub-info flex justify-between px-5 pb-5">
-            <h1 className='text-4xl'>Menu</h1>
+            <h1 className='text-6xl'>Menu</h1>
            
           </div>
 
@@ -60,10 +60,10 @@ useEffect(()=> {
                   {
                     menuTypes.map((items, index) => (
                       <li key={index} onClick={() => getMenu(items)} className={`flex cursor-pointer items-center text-sm transition-colors duration-300 ${
-              activeItem === items ? 'text-red-500' : 'text-[#FFD700] hover:text-[#f0efee]'
+              activeItem === items ? 'text-white' : 'text-[#ffd900e1] hover:text-[#f0efee]'
             }`}>
                         <p className="text-lg">{items.toUpperCase()}</p>
-                        <span  className="pointer-events-none mx-2 text-[#FFD700]">
+                        <span  className="pointer-events-none mx-2 text-[#ffd900e1]">
                           /
                         </span>
                       </li>
