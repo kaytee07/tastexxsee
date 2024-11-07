@@ -8,9 +8,9 @@ const latoBold = Lato({ weight: '400', subsets: ['latin'] });
 
 const ExInfo = () => {
   return (
-    <div className="flex bg-[#ffd900e1] text-black w-[100vw] h-[36rem] items-center justify-center  max-sm:px-5 max-sm:py-3  max-sm:flex-col">
-        <div className="info max-sm:pt-10 px-20 max-sm:px-0  md:w-[55rem] md:py-10 flex flex-col gap-5">
-            <h1 className={`md:text-6xl max-sm:text-3xl font-extrabold ${libreBaskerville.className}`}>Why TasteXXsee ?</h1>
+    <div className="flex bg-[#ffd900e1] text-black w-[100vw] max-sm:h-[40rem] h-[36rem] items-center justify-center  max-sm:px-5  max-sm:flex-col">
+        <div className="info px-20 max-sm:px-0  md:w-[55rem] md:py-10 flex flex-col gap-5">
+            <h1 className={`md:text-6xl max-sm:text-5xl font-extrabold ${libreBaskerville.className}`}>Why TasteXXsee ?</h1>
             <p className={`max-sm:hidden ${latoBold.className} text-xl`}>
                 This is a type of restaurant which typically serves food and drink, in
                 addition to light refreshment such as baked goods or snacks. The taste come from 

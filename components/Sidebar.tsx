@@ -7,13 +7,18 @@ import {
 } from "@/components/ui/sheet"
 import Link from "next/link"
 
+interface SheetDemoProps {
+  firstColor: string
+}
 
-export function SheetDemo() {
+
+export function SheetDemo ({firstColor}: SheetDemoProps) {
   
   return (
     <Sheet>
       <SheetTrigger asChild>
         <svg
+          color={firstColor}
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -47,7 +52,7 @@ export function SheetDemo() {
             {/* Make changes to your profile here. Click save when you're done. */}
           </SheetDescription>
         </SheetHeader>
-        <div className="gap-4 py-4 flex h-[10rem] w-full">
+        <div className="gap-4 py-4 z-50 flex h-[10rem] w-full">
          <ul className="flex flex-col justify-around w-full">
             <li className="border-b-[#FFD700] border-b-2">about us</li>
             <li className="border-b-[#FFD700] border-b-2">staff</li>

@@ -4,6 +4,7 @@
 import React from 'react';
 import { Libre_Baskerville } from 'next/font/google';
 import { Lato } from 'next/font/google';
+import Navbar from './Navbar';
 
 
 const libreBaskerville = Libre_Baskerville({ weight: '700', subsets: ['latin'] });
@@ -14,6 +15,7 @@ const Hero = () => {
   // const [ menu, setMenu ] = useState({});
   return (
 <div className="flex h-[90vh] max-sm:bg-[url('/img/rest1.avif')] bg-[url('/img/rest3.jpeg')] bg-cover   relative text-white">
+<Navbar firstColor="#FFD700"/>
 <div className="absolute bg-black bg-opacity-40 w-full h-full"></div>
 <div className={`catch absolute flex text-[#ffd900e1] max-sm:px-10 flex-col items-center w-full max-sm:top-40 max-sm:items-start top-52 max-sm:w-auto`}>
   <h1 className={`text-8xl max-sm:text-5xl font-bold ${libreBaskerville.className} `}>Savor the Flavor, <br/></h1>
