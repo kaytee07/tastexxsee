@@ -16,7 +16,7 @@ const Hero = () => {
   return (
 <div className="flex md:h-[80vh] max-sm:h-[90vh] h-[90vh] lg:h-[90vh] max-sm:bg-[url('/img/rest1.avif')] bg-[url('/img/rest3.jpeg')] bg-cover relative text-white">
 <Navbar firstColor="#FFD700"/>
-<div className="absolute bg-black bg-opacity-40 w-full h-full"></div>
+<div className="absolute bg-black bg-opacity-75 w-full h-full"></div>
 <div className={`catch absolute flex text-[#ffd900e1] max-sm:px-10 flex-col items-center w-full px-10 max-sm:top-24 max-sm:items-start top-28 max-sm:w-auto`}>
   <h1 className={`lg:text-8xl text-6xl max-sm:text-5xl font-bold ${libreBaskerville.className} `}>Savor the Flavor, <br/></h1>
   <h1 className={`lg:text-8xl text-6xl max-sm:text-5xl font-bold ${libreBaskerville.className} `}> Celebrate Every Bite!</h1>
