@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
           {/* Social network icons container */}
           <div className="flex h-auto justify-center">
-              <a target="_blank"  href="https://www.tiktok.com/tastexxsee" className="me-6 [&>svg]:h-[2rem] [&>svg]:w-[2rem]">
+              <a target="_blank"  href="https://www.tiktok.com/@taste.xx.see?_t=8rDXbRcPsIB&_r=1" className="me-6 [&>svg]:h-[2rem] [&>svg]:w-[2rem]">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-music-2"><circle cx="8" cy="18" r="4"/><path d="M12 18V2l7 4"/></svg>
               </a>
               <a target="_blank"  href="https://www.instagram.com/tastexxsee" className="me-6 [&>svg]:h-[2rem] [&>svg]:w-[2rem]">
@@ -71,7 +71,7 @@ const Footer = () => {
         
         {/* Bottom text */}
         <div className="p-6 text-center text-neutral-500 dark:text-neutral-400">
-          <span>© 2024 All Rights Reserved.</span>
+          <span>© 2024 Built By: <a href="tel:+233201995908" className="text-blue-800">Winful Taylor</a></span>
         </div>
       </footer>
     </div>
