@@ -6,6 +6,11 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 import Link from "next/link"
+import { Lato } from 'next/font/google';
+import { Libre_Baskerville } from 'next/font/google';
+
+const latoBold = Lato({ weight: '400', subsets: ['latin'] });
+const libreBaskerville = Libre_Baskerville({ weight: '700', subsets: ['latin'] });
 
 interface SheetDemoProps {
   firstColor: string
@@ -45,18 +50,19 @@ export function SheetDemo ({firstColor}: SheetDemoProps) {
       <SheetContent>
         <SheetHeader>
           
-            <Link className="w-5 font-bold text-[#FFD700]" href="/">
-                Tastexxsee
+            <Link className={`w-5 font-bold text-2xl text-[#FFD700] ${libreBaskerville.className}`} href="/">
+                TastexxSee
             </Link>
           <SheetDescription>
             {/* Make changes to your profile here. Click save when you're done. */}
           </SheetDescription>
         </SheetHeader>
         <div className="gap-4 py-4 z-50 flex h-[10rem] w-full">
-         <ul className="flex flex-col justify-around w-full">
-            <a href="/aboutus"><li className="border-b-[#FFD700] border-b-2">about us</li></a>
-            <a href="/#staff"><li className="border-b-[#FFD700] border-b-2">staff</li></a>
-            <a href="#footer"><li className="border-b-[#FFD700] border-b-2">contact us</li></a>
+         <ul className={`flex flex-col justify-around w-full text-lg ${latoBold.className}`}>
+            <a href="/aboutus"><li className="border-b-[#FFD700] border-b-2 py-2">About us</li></a>
+            <a href="/#staff"><li className="border-b-[#FFD700] border-b-2 py-2">Staff</li></a>
+            <a href="/services"><li className="border-b-[#FFD700] border-b-2 py-2">Services</li></a>
+            <a href="#footer"><li className="border-b-[#FFD700] border-b-2 py-2">contact us</li></a>
          </ul>
         </div>
       </SheetContent>
