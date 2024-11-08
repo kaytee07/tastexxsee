@@ -54,9 +54,9 @@ export function SheetDemo ({firstColor}: SheetDemoProps) {
         </SheetHeader>
         <div className="gap-4 py-4 z-50 flex h-[10rem] w-full">
          <ul className="flex flex-col justify-around w-full">
-            <li className="border-b-[#FFD700] border-b-2">about us</li>
-            <li className="border-b-[#FFD700] border-b-2">staff</li>
-            <li className="border-b-[#FFD700] border-b-2">contact us</li>
+            <a href="/aboutus"><li className="border-b-[#FFD700] border-b-2">about us</li></a>
+            <a href="/#staff"><li className="border-b-[#FFD700] border-b-2">staff</li></a>
+            <a href="#footer"><li className="border-b-[#FFD700] border-b-2">contact us</li></a>
          </ul>
         </div>
       </SheetContent>

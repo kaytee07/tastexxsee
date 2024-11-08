@@ -22,7 +22,7 @@ const Hero = () => {
   <h1 className={`text-8xl max-sm:text-5xl font-bold ${libreBaskerville.className} `}> Celebrate Every Bite!</h1>
   <p className={`text-xl mt-4 max-sm:text-xl ${latoBold.className}`}>Join us for a delightful dining experience where each dish is crafted with passion and the finest ingredients,</p>
   <p className={`text-xl mt-2 max-sm:text-xl ${latoBold.className}`}>inviting you to explore a world of taste in every bite.</p>
-  <button className="mt-8 w-36 h-11 rounded-md text-black bg-[#ffd900e1] text-xl">Contact Us</button>
+  <a href="#footer"><button className="mt-8 w-36 h-11 rounded-md text-black bg-[#ffd900e1] text-xl">Contact Us</button></a>
 </div>
     {/* <div className="h-full w-full bg-black bg-opacity-50"></div> */}
   {/* Text section (uncomment if needed)

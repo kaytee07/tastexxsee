@@ -5,23 +5,23 @@ const latoBold = Lato({ weight: '400', subsets: ['latin'] });
 
 const Footer = () => {
   return (
-    <div>
+    <div id="footer">
       {/* Footer container */}
-      <footer className={`${latoBold.className} bg-[#ffd900e1] text-black text-center text-xl text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left ax-sm:px-5 max-sm:py-3 px-16 pt-10`}>
-        <div className="flex items-center justify-center border-b-2 border-black p-6 dark:border-white/10 lg:justify-between">
+      <footer className={`${latoBold.className} bg-[#ffd900e1] text-black text-center text-xl text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left ax-sm:px-5 max-sm:py-3 px-14 pt-10`}>
+        <div className="flex items-center justify-center border-b-2 border-black py-6 dark:border-white/10 lg:justify-between">
           <div className="me-12 hidden lg:block font-bold">
             <span>Get connected with us on social networks:</span>
           </div>
           {/* Social network icons container */}
-          <div className="flex justify-center">
-              <a target="_blank"  href="https://www.tikok.com/taste.xx.see" className="me-6 [&>svg]:h-4 [&>svg]:w-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-music-2"><circle cx="8" cy="18" r="4"/><path d="M12 18V2l7 4"/></svg>
+          <div className="flex h-auto justify-center">
+              <a target="_blank"  href="https://www.tiktok.com/tastexxsee" className="me-6 [&>svg]:h-[2rem] [&>svg]:w-[2rem]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-music-2"><circle cx="8" cy="18" r="4"/><path d="M12 18V2l7 4"/></svg>
               </a>
-              <a target="_blank"  href="https://www.instagram.com/tastexxsee" className="me-6 [&>svg]:h-4 [&>svg]:w-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              <a target="_blank"  href="https://www.instagram.com/tastexxsee" className="me-6 [&>svg]:h-[2rem] [&>svg]:w-[2rem]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
               </a>
-              <a target="_blank"  href="https://www.facebook.com/tastexsee" className="me-6 [&>svg]:h-4 [&>svg]:w-4">
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              <a target="_blank"  href="https://www.facebook.com/profile.php?id=61567093156002&mibextid=LQQJ4d" className="me-6 [&>svg]:h-[2rem] [&>svg]:w-[2rem]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
               </a>         
           </div>
         </div>

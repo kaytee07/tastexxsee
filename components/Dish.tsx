@@ -44,7 +44,7 @@ useEffect(()=> {
 }, [])
 
   return (
-    <div className="flex px-16 gap-16 h-[46rem] py-20 bg-black text-[#ffd900e1] max-sm:px-5 max-sm:py-12">
+    <div id="dish" className="flex px-16 gap-16 h-[46rem] py-20 bg-black text-[#ffd900e1] max-sm:px-5 max-sm:py-12">
         <div className="headers max-sm:hidden max-sm:px-5 max-sm:py-3  w-[50%] flex justify-end">
             <img src="/img/hero8.avif" className="w-full h-20rem[" alt="food" />
         </div>

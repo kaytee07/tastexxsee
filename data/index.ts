@@ -446,27 +446,44 @@ export const staff = [
     {
         name: "Richard Oduro",
         position: "CEO & Founder",
-        auto:"lorem"
+        auto:"He holds a bachelor of Art degree in Economics and Mathematics from the University of Ghana ,Legon.",
+        src:""
+    },
+     {
+        name: "Gideon Senanu",
+        position: "Manager",
+        auto:"",
+        src:""
     }, 
     {
         name: "Rexford Kofi Obeng",
         position: "Human Resource And Public Relations Director",
-        auto:"lorem"
+        auto:"",
+        src:""
     },
     {
         name: "Stanley Asukuri Bastimi",
         position: "Operations Manager",
-        auto:"lorem"
+        auto:"",
+        src:""
     },
     {
         name: "Ronald Kwabena Ofori",
         position: "Legal Advisor",
-        auto:"lorem"
+        auto:"",
+        src:""
     },
     {
         name: "Kenneth Nana Ofori - Asae",
         position: "Social Media And Creative Director",
-        auto:"lorem"
+        auto:"",
+        src:""
+    },
+    {
+        name: "Raymond Kojo Freeman",
+        position: "Financial Director",
+        auto:"B.A. in Economics- Universityof Ghana, Legon, is a computerized accounting expert. He holds a Level One qualification in computerized accounts from The City & Guilds of London Institute.",
+        src:"/img/freeman.jpg"
     }
 
 ]
