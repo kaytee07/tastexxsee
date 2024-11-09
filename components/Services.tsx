@@ -45,7 +45,7 @@ const Services = () => {
                 <div className="relative text-white">
                   <div className='w-full h-[30%] bottom-0 absolute bg-opacity-50 bg-black'></div>
                   <h3 className="absolute text-2xl font-bold text-[#ffd900e1] bottom-3 w-full px-2"> funerals</h3>
-                    <img  className="h-auto max-w-full rounded-lg" src="/img/fun1.avif" alt=""/>
+                    <img  className="h-auto max-w-full rounded-lg" src="/img/fun2.avif" alt=""/>
                 </div>
                 </a>
             </div>
