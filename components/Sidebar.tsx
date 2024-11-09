@@ -50,8 +50,8 @@ export function SheetDemo ({firstColor}: SheetDemoProps) {
       <SheetContent>
         <SheetHeader>
           
-            <Link className={`w-5 font-bold text-2xl text-[#FFD700] ${libreBaskerville.className}`} href="/">
-                TastexxSee
+            <Link className={`w-fit font-bold text-xl text-[#FFD700] ${libreBaskerville.className}`} href="/">
+                Taste xx See
             </Link>
           <SheetDescription>
             {/* Make changes to your profile here. Click save when you're done. */}

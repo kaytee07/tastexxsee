@@ -10,7 +10,7 @@ const ExInfo = () => {
   return (
     <div id="about" className="flex bg-[#ffd900e1] text-black w-[100vw] max-sm:h-[50rem] h-[36rem] items-center justify-center  max-sm:px-5 max-sm:justify-start  max-sm:flex-col">
         <div className="info md:px-10 lg:px-20  max-sm:px-0 max-sm:py-10 md:py-1 flex flex-col gap-5 md:w-[30rem] lg:w-[40rem]">
-            <h1 className={`md:text-5xl max-sm:text-5xl font-bold ${libreBaskerville.className}`}>Why TastexxSee ?</h1>
+            <h1 className={`md:text-5xl max-sm:text-5xl font-bold ${libreBaskerville.className}`}>Why<br/> Taste xx See ?</h1>
             <p className={`max-sm:hidden ${latoBold.className} text-xl`}>
                 This is a type of restaurant which typically serves food and drink, in
                 addition to light refreshment such as baked goods or snacks. The taste come from 

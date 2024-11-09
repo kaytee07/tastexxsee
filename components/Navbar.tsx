@@ -17,7 +17,7 @@ const Navbar: React.FC<NavbarProps> = ({firstColor}) => {
     <header className={`flex flex-row h-fit w-full bg-transparent z-10 justify-between text-[${firstColor}] items-center py-4 px-10`}>
         <div className="logo">
             <Link href="/">
-                <h1 className={`font-bold text-xl text-[${firstColor} ${libreBaskerville.className}`}>TastexxSee</h1>
+                <h1 className={`font-bold text-xl text-[${firstColor} ${libreBaskerville.className}`}>Taste xx See</h1>
             </Link>
         </div>
         <nav 
