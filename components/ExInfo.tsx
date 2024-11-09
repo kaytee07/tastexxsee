@@ -22,22 +22,22 @@ const ExInfo = () => {
             </button>
         </div>
        <div className="lg:w-[40rem]">
-        <ul className={`grid grid-cols-2 gap-y-7 gap-x-5  place-content-start   rounded-lg ${latoBold.className}`}>
-                <li className="flex-col flex justify-center gap-2 shadow-xl max:md:w-[5rem] max-sm:w-40 w-44 h-fit  items-center px-2 py-3 rounded-md">
+        <ul className={`grid grid-cols-2 gap-y-7 gap-x-5  place-content-start max-sm:w-auto rounded-lg ${latoBold.className}`}>
+                <li className="flex-col flex justify-center gap-2 shadow-xl max:md:w-[5rem] max-sm:w-auto w-44 h-fit  items-center px-2 py-3 rounded-md">
                     <div className={`icon`}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-shield-check"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
                     </div>  
                     <h1 className='font-semibold'>Quality Of Food</h1>
                     <p className="text-center ">Consistently fresh, tasty, and well-prepared dishes that meet customer expectations.</p>
                 </li>
-                <li className="flex-col flex justify-center gap-2 shadow-xl max:md:w-[5rem] max-sm:w-40 w-44 h-fit  items-center px-2 py-3 rounded-md">
+                <li className="flex-col flex justify-center gap-2 shadow-xl max:md:w-[5rem] max-sm:w-auto w-44 h-fit  items-center px-2 py-3 rounded-md">
                     <div className="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-shield-check"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
                     </div>  
                     <h1 className='font-semibold'>Ambiance</h1>
                     <p className="text-center">A comfortable and inviting atmosphere that enhances the dining experience.</p>
                 </li>
-                <li className="flex-col flex justify-center gap-2 shadow-xl max:md:w-[5rem] max-sm:w-40 w-44 h-fit  items-center px-2 py-3 rounded-md">
+                <li className="flex-col flex justify-center gap-2 shadow-xl max:md:w-[5rem] max-sm:w-auto w-44 h-fit  items-center px-2 py-3 rounded-md">
                     <div className="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-shield-check"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
                     </div>  
