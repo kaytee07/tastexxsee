@@ -39,8 +39,8 @@ const getMenu = (type: string) => {
 };
 
 useEffect(()=> {
-  setMenu(menu['African Friendly'])
-  setActiveItem('African Friendly')
+  setMenu(menu['Continental'])
+  setActiveItem('Continental')
 }, [])
 
   return (

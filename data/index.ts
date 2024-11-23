@@ -39,7 +39,7 @@ export const constinental = [
     },
 ]
 
-export const menuType = ["African Friendly", "Nigerian Friendly", "European Friendly", "Starters", "Weekend Local", "Special Weekend Order", "Spicy Chicken Wings", "Special Order"] 
+export const menuType = ["Continental", "Nigerian Friendly", "European Friendly", "Starters", "Weekend Local", "Special Weekend Order", "Spicy Chicken Wings", "Special Order"] 
 
 export const menu: Menu = {
     "Continental":[ {
