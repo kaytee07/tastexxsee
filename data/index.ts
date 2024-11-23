@@ -43,115 +43,100 @@ export const menuType = ["African Friendly", "Nigerian Friendly", "European Frie
 
 export const menu: Menu = {
     "African Friendly":[ {
-        name:  "beef thai fried rice",
+        name:  "Beef/Chicken thai fried rice",
         dishes:[
             {
-                name: "With Chicken",
+                name: "With Beef/Chicken Assorted",
                 prices: [45, 65, 85]
             },
             {
-                name: "With sweet sour Chicken/beef sauce",
+                name: "Shredded beef sauce",
+                prices: [85, 120, 180]
+            },
+            {
+                name: "With Grilled Chicken",
                 prices: [65, 85, 120]
             },
             {
-                name: "With Tilapia",
-                prices: [75, 120]
-            },
-            {
                 name: "With Grilled Cat Fish",
-                prices: [120]
+                prices: [180, 250]
             },
             {
-                name: "With Shrimps",
-                prices: [95, 120]
+                name: "With Spicy Shrimps",
+                prices: [95, 145, 185]
             }
         ]
     },
     {
-        name:"Veg Meat Assorted Jollof Rice",
+        name:"Spicy Ghanaian Jollof Rice",
         dishes:[
             {
-                name: "With Chicken",
+                name: "With Beef and Veg Assorted",
                 prices: [45, 65, 85]
             },
             {
-                name: "With Chicken Sauce",
-                prices: [65, 85]
+                name: "Shredded beef sauce",
+                prices: [85, 120, 180]
             },
             {
-                name: "With Tilapia",
-                prices: [75, 120]
+                name: "With Grilled Chicken",
+                prices: [65, 85, 120]
             },
             {
                 name: "With Grilled Cat Fish",
-                prices: [120]
+                prices: [180, 250]
             },
             {
-                name: "With Shrimps",
-                prices: [95, 120]
+                name: "With Spicy Shrimps",
+                prices: [95, 145, 185]
             }
         ],
         
     },
     {
-        name:"Herb Rice",
+        name:"Herb Rice or White Rice",
         dishes:[
-           {
-                name: "With sweet sour Chicken/beef sauce",
-                prices: [55, 75, 95]
+            {
+                name: "Pork Pineapple Barbecue Sauce",
+                prices: [75, 95, 125]
             },
             {
-                name: "With Shrimp Veg Sauce",
-                prices: [95, 120]
+                name: "Shredded beef sauce",
+                prices: [85, 120, 180]
+            },
+            {
+                name: "Sweet Chilli Fish Sauce",
+                prices: [95, 120, 160]
             },
             {
                 name: "With Grilled Cat Fish",
-                prices: [120]
+                prices: [180, 250]
             },
         ],
         
     },
     {
-        name:"Loaded Ghanaian Oil Rice",
+        name:"",
         dishes:[
-           {
-                name: "With Chicken",
-                prices: [65, 85]
+            {
+                name: "Bolognese",
+                prices: [75, 95, 130]
             },
             {
-                name: "With Grilled Cat Fish",
-                prices: [120, 150]
-            },
-        ],
-        
-    },
-    {
-        name:"Meat Assorted Noodles",
-        dishes:[
-           {
-                name: "Single Meat",
-                prices: [45, 65]
+                name: "Chicken Alfredo",
+                prices: [75, 95, 130]
             },
             {
-                name: "Mix Meat",
-                prices: [55, 75]
-            },
-        ],  
-    },
-    {
-        name:"Special Loaded Banku",
-        dishes:[
-           {
-                name: "With Grilled Chicken",
-                prices: [45, 65]
+                name: "Chicken Burger",
+                prices: [75, 95, 130]
             },
             {
-                name: "With Tilapia",
-                prices: [65, 85]
+                name: "Chilli Beef Mac & Cheese",
+                prices: [120, 180, 244]
             },
             {
-                name: "With Grilled CatFish",
-                prices: [85, 120]
+                name: "Ramen Noodles",
+                prices: [45, 65, 85]
             },
         ],
         
@@ -161,24 +146,68 @@ export const menu: Menu = {
             name:  "",
             dishes:[
                 {
-                    name: "Special Spring Rolls & mix veg",
+                    name: "Sausage and egg",
                     prices: [45]
                 },
                 {
-                    name: "Special Samosa & mix veg",
+                    name: "Pancake and sandwich",
                     prices: [45]
                 },
                 {
-                    name: "Scrambled eggs & mix veg",
+                    name: "Samosa rolls and kaslow",
                     prices: [45]
                 },
                 {
-                    name: "UK Bakes & mixed Veg",
-                    prices: [55]
+                    name: "Chicken popcorn",
+                    prices: [65]
                 },
                 {
-                    name: "Fruit Salad",
-                    prices: [45]
+                    name: "Potato Salad",
+                    prices: [65]
+                },
+                {
+                    name: "Sausage and Bacon Rolls",
+                    prices: [65]
+                },
+                {
+                    name: "Spicey Chicken Wings",
+                    prices: [55, 85, 120]
+                },
+               
+            ]
+        },
+       
+    ],
+    "Family Platters":[ {
+            name:  "",
+            dishes:[
+                {
+                    name: "English Breakfast Platter",
+                    prices: [280]
+                },
+                {
+                    name: "Fruit Platter",
+                    prices: [180]
+                },
+                {
+                    name: "Seafood Platter",
+                    prices: [390]
+                },
+                {
+                    name: "Canape Platter",
+                    prices: [350]
+                },
+                {
+                    name: "English Supper Platter(Mashed Potatoes)",
+                    prices: [390]
+                },
+                {
+                    name: "African Friendly Platter",
+                    prices: [65]
+                },
+                {
+                    name: "Spicey Chicken Wings",
+                    prices: [350]
                 },
                
             ]
@@ -190,11 +219,11 @@ export const menu: Menu = {
             dishes:[
                 {
                     name: "With Gari",
-                    prices: [65, 85]
+                    prices: [55]
                 },
                 {
                     name: "With Semo",
-                    prices: [65, 85]
+                    prices: [75]
                 },
             ]
         },
@@ -212,11 +241,11 @@ export const menu: Menu = {
             dishes:[
                 {
                     name: "With Gari",
-                    prices: [55, 65]
+                    prices: [55]
                 },
                 {
                     name: "With Semo",
-                    prices: [65, 85]
+                    prices: [75]
                 },
             ]
         },
@@ -225,11 +254,11 @@ export const menu: Menu = {
             dishes:[
                 {
                     name: "With Gari",
-                    prices: [55, 65]
+                    prices: [55]
                 },
                 {
                     name: "With Semo",
-                    prices: [65, 85]
+                    prices: [75]
                 },
             ]
         },
@@ -238,47 +267,29 @@ export const menu: Menu = {
             dishes:[
                 {
                     name: "With Gari",
-                    prices: [55, 65]
+                    prices: [55]
                 },
                 {
                     name: "With Semo",
-                    prices: [65, 85]
+                    prices: [75]
+                },
+            ]
+        },
+        {
+            name:"Okra Soup",
+            dishes:[
+                {
+                    name: "With Gari",
+                    prices: [55]
+                },
+                {
+                    name: "With Semo",
+                    prices: [75]
                 },
             ]
         }
     ],
-        "European Friendly":[ {
-            name:  "",
-            dishes:[
-                {
-                    name: "Mashed Potato With English Beef Gravy",
-                    prices: [90, 120]
-                },
-                {
-                    name: "Potato Chips With Chicken",
-                    prices: [65, 85]
-                },
-                {
-                    name: "English Breakfast Plata",
-                    prices: [280]
-                },
-                {
-                    name: "Canapé Plata",
-                    prices: [350]
-                },
-                {
-                    name: "Seafood Plata",
-                    prices: [550]
-                },
-                {
-                    name: "Africa Friendly Plata",
-                    prices: [450]
-                },
-            ]
-        },
-       
-    ],
-    "Weekend Local":[ {
+    "Ghanaian Locals":[ {
             name:  "",
             dishes:[
                 {
@@ -287,7 +298,7 @@ export const menu: Menu = {
                 },
                 {
                     name: "Rice Ball",
-                    prices: [10]
+                    prices: [5]
                 },
                 {
                     name: "Banku",
@@ -296,6 +307,14 @@ export const menu: Menu = {
                 {
                     name: "Kokonte",
                     prices: [5]
+                },
+                {
+                    name: "Plain Rice",
+                    prices: [15]
+                },
+                {
+                    name: "Jollof Rice",
+                    prices: [20]
                 },
             ]
         },
@@ -307,80 +326,97 @@ export const menu: Menu = {
                     prices: [30]
                 },
                 {
-                    name: "Chicken Thigh",
-                    prices: [20]
+                    name: "Cow Meat",
+                    prices: [30]
+                },
+                {
+                    name: "Bush Meat",
+                    prices: [45]
+                },
+                {
+                    name: "Chicken",
+                    prices: [25]
+                },
+                {
+                    name: "Salted Beef",
+                    prices: [5]
                 },
                 {
                     name: "Chicken Wings",
-                    prices: [20]
+                    prices: [10]
                 },
                 {
                     name: "Tuna",
                     prices: [15]
                 },
                 {
+                    name: "Koobi",
+                    prices: [15]
+                },
+                {
                     name: "Wele",
-                    prices: [5]
+                    prices: [7]
                 },
                 {
                     name: "Boiled Egg",
                     prices: [5]
                 },
                 {
-                    name: "Crab",
-                    prices: [10]
+                    name: "Intestine",
+                    prices: [15]
                 },
                 {
-                    name: "Kotodwe",
-                    prices: [25]
-                },
-                {
-                    name: "Beef",
-                    prices: [20]
-                },
-                {
-                    name: "Catfish",
-                    prices: [45]
-                },
-                {
-                    name: "Snail",
-                    prices: [30]
+                    name: "Fresh Tilapia",
+                    prices: [40]
                 },
                 {
                     name: "Salmon",
                     prices: [15]
                 },
-                 {
-                    name: "Tilapia",
+                {
+                    name: "Catfish",
+                    prices: [15]
+                },
+                {
+                    name: "Snail",
                     prices: [40]
                 },
                 {
-                    name: "Towel",
-                    prices: [15]
+                    name: "Dry Catfish(Adwene)",
+                    prices: [50]
                 },
+          
             ]
         },
         {
-            name:  "Soups",
+            name:  "Soup and Stews",
             dishes:[
                 {
-                    name: "Goat Soup",
+                    name: "Goat Light Soup",
                     prices: []
                 },
                 {
-                    name: "Abunuabunu",
+                    name: "Green Soup",
                     prices: []
                 },
                 {
-                    name: "Groundnut Soup",
+                    name: "Groundnut or Peanut butter Soup",
                     prices: []
                 },
                 {
-                    name: "Okrow soup",
+                    name: "Okro stew",
                     prices: []
                 },
                 {
-                    name: "Fante Fante",
+                    name: "Kontomire stew",
+                    prices: []
+                },
+                {
+                    name: "Pepper Soup",
+                    prices: []
+                },
+                {
+                    name: "Chicken Soup",
                     prices: []
                 },
                 {
@@ -390,51 +426,54 @@ export const menu: Menu = {
             ]
         }  
     ],
-     "Special Weekend Order":[ {
-            name:  "",
-            dishes:[
-                {
-                    name: "Boiled Yam & Asanka Stew",
-                    prices: [75]
-                }
-            ]
-        },
-       
-    ],
-     "Special Chicken Wings":[ {
-            name:  "",
-            dishes:[
-                {
-                    name: "Chicken Pizza",
-                    prices: [55]
-                },
-                {
-                    name: "Eat Large",
-                    prices: [85]
-                },
-            ]
-        },
-       
-    ],
+
     "Special Order":[ {
-            name:  "Pizza",
+            name:  "Special Loaded Banku",
             dishes:[
                 {
-                    name: "Chicken Pizza",
-                    prices: [65, 85, 120]
+                    name: "Grilled Chicken",
+                    prices: [55, 85, 135]
                 },
                 {
-                    name: "Fruit Pizza",
-                    prices: [75, 95, 120]
+                    name: "Grilled Catfish",
+                    prices: [180, 250]
+                },
+            ]
+        },
+        {
+            name:  "Loaded Ghanaian Oil Rice",
+            dishes:[
+                {
+                    name: "Grilled Chicken",
+                    prices: [55, 85, 135]
                 },
                 {
-                    name: "Special Pizza",
-                    prices: [85, 100, 130]
+                    name: "Grilled Catfish",
+                    prices: [180, 250]
+                },
+            ]
+        },
+        {
+            name:  "Special Etor",
+            dishes:[
+                {
+                    name: "Plantain",
+                    prices: [50]
                 },
                 {
-                    name: "Eat Large",
-                    prices: [65]
+                    name: "Yam",
+                    prices: [75]
                 },
+            ]
+        },
+        {
+            name:  "Special Loaded Banku",
+            dishes:[
+                {
+                    name: "Boiled Yam With Asanka Groundnut Sauce",
+                    prices: [75]
+                },
+               
             ]
         },
        
@@ -450,10 +489,10 @@ export const staff = [
         src:""
     },
      {
-        name: "Gideon Senanu",
+        name: "Joshua Azu Benson",
         position: "Manager",
-        auto:"",
-        src:""
+        auto:"A Sports Science graduate, physiotherapist, and certified digital marketer. I combine my passion for music and digital marketing to connect with communities and create meaningful experiences.",
+        src:"/img/benson.jpg"
     }, 
     {
         name: "Rexford Kofi Obeng",
